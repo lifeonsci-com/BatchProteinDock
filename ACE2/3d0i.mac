@@ -1,0 +1,10 @@
+open_receptor /Users/csx/Downloads/bioInfo/pdbs/ACE2/3d0i.pdb
+open_ligand /Users/csx/Downloads/bioInfo/pdbs/Sprotein/01.pdb
+display_hetero 0
+cull_solvent
+activate_docking
+save_range 1 /Users/csx/Downloads/bioInfo/pdbs test pdb
+button_active 1
+translate 0.001 0.000
+button_pick 1 30.0000 133.0000
+button_active 0
